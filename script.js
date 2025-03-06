@@ -40,4 +40,4 @@ var dates = [
   "2023/03/30",
 ];
 
-aler(minDate(dates));
+alert(minDate(dates));
