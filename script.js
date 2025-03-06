@@ -1,4 +1,7 @@
 function minDate(dates) {
+	let sortedDate = dates.slice().sort();
+	return sortedDate[0];
+	
   //write you code here
 }
 
@@ -37,4 +40,4 @@ var dates = [
   "2023/03/30",
 ];
 
-alert(minDate(dates));
+aler(minDate(dates));
